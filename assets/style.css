@@ -1,0 +1,84 @@
+:root {
+  --background: #023047;
+  --search-box: #8ecae6;
+  --text: #023047;
+}
+
+body {
+  margin: 0px;
+  font-family: "Noto Serif", serif;
+}
+
+h1 {
+  margin: 15px;
+  color: var(--text);
+  font-size: 2.5rem;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--search-box);
+  border-radius: 10px;
+}
+
+.search-style {
+  font-family: "Quicksand", sans-serif;
+}
+
+#search-field {
+  margin: 3px;
+  box-sizing: border-box;
+  width: 85vmin;
+  height: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#search-format {
+  margin: 3px;
+  box-sizing: border-box;
+  width: 85vmin;
+  height: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#search-button {
+  background-color: #ffb803b6;
+  margin: 3px;
+  box-sizing: border-box;
+  width: 85vmin;
+  height: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#search-button:hover {
+  background-color: #fb8500;
+}
